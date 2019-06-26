@@ -1,13 +1,13 @@
 function waitingFn(TimeinMs) {
 const futureTime = Date.now() + TimeInMs;
-while(futureTime> Date.now()) {
+while (futureTime > Date.now()) {
 
-    
+
 }
 
 } 
 
-
+debugger;
 waitingFn(3000);
 
 
